@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>W3D1 Exercises</title>
+
+    <head>
+        <script>
+
+            // LAB 1 
+            
+            // function sum(array) {
+            //     let sum = 0;
+            //     for (const num of array) {
+            //         sum += num;
+            //     }
+            //     return sum;
+            // }
+
+
+            // SOLUTION:
+
+            // let myArray = [1, 2, 3]
+
+            // function sum(arr) {
+            //     if (arr.length == 1) {
+            //         return arr[0]
+            //     }
+            //     else {
+            //         return arr.pop() + sum(arr);
+            //     }
+            // }
+
+            // let showSum = sum(myArray)
+            // alert(showSum);
+
+
+
+            //             Undo Recursion
+            // Write a non-recursive version of the following function which returns the min element in an array:
+
+            // function min(array) {
+            //     if (array.length > 1) {
+            //         let other = min(array.splice(1));
+            //         if (other < array[0]) {
+            //             return other;
+            //         }
+            //     }
+            //     return array[0];
+            // }
+
+
+            // SOLUTION:
+
+            // function min(arr){
+            //     let minNum = arr[0]
+            //     for(let i = 1; i < arr.length; i++){
+            //         if(minNum > arr[i]){
+            //             minNum = arr[i];
+            //         }
+            //     }
+            //     return minNum;
+            // }
+
+            // let showMin = min(myArray);
+            // alert(showMin);
+
+            
+            // LAB 2 
+
+            // Lab 2: Using a Stack
+            // Description:
+            // In this lab you’ll create a SymbolBalancer class with a constructor that takes a string (containing
+            // program text), and a method isBalanced(delimiters) that checks if the passed in delimiters
+            // are balanced in the program text.
+
+            // Part A:
+            // A Mocha / Chai test.js file has already been provided including a program text that should pass
+            // and a program text that should fail. In other words, you just need to implement the class.
+            
+            // Part B:
+            // Update test.js to also include a test for checking html content. In other words, the constructor should
+            // take text containing html, and the delimiters that should be matched would be: <>””’’
+
+            // Hints:
+            // You probably noticed that the title of this lab is “using a stack”
+            // The delimiters string consists of pairs of delimiters. In other words there are always two that belong
+            // together, where the first opens, and the second closes.
+
+
+            
+
+
+
+        </script>
+    </head>
+
+<body>
+
+</body>
+
+</head>
+
+</html>
